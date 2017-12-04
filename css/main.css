@@ -46,10 +46,23 @@ h2 {
 
 /* NAV */
 
-.navbar {
-  background-color: #1c2f33;
-  width: 100%;
-  z-index: 1000;
+nav ul .nav-bar{
+  position:fixed;
+  z-index:1000;
+  width:100%;
+  color:#000;
+  list-style:none;
+  -webkit-transition:.5s;
+  -moz-transition:.5s;
+  transition:.5s;
+}
+nav ul .nav-bar.active{
+  background:#1c2f33;
+  color:#fff;
+}
+nav ul li{
+  display:inline-block;
+  padding:20px 30px;
 }
 
 .logo {
