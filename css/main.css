@@ -206,6 +206,11 @@ img.grayscale:hover {
   margin-top: 0;
 }
 
+.block {
+  background-color: #1c2f33;
+  height: 3em;
+}
+
 /* FOOTER */
 
 .footer-distributed{
@@ -390,7 +395,7 @@ img.grayscale:hover {
   .bg-img-mayo {
     position: relative;
     background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo-sq.jpg");
-    min-height: 45rem;
+    min-height: 40rem;
     overflow: hidden;
     background-repeat: repeat;
     background-size: 100% auto;
