@@ -51,6 +51,10 @@ h2 {
   width: 100%;
 }
 
+.em {
+  color: #7C8080;
+}
+
 /* NAV */
 
 .navbar {
@@ -93,12 +97,12 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .why-box {
   opacity: 0.7;
   padding-bottom: 1rem;
-  border-radius: 0 8px 0 0;
 }
 
 .why {
@@ -112,6 +116,7 @@ a {
   background-color: #fff;
   width: 50%;
   opacity: 1;
+  border-radius: 0 8px 0 0;
 }
 
 .why-b {
@@ -120,6 +125,7 @@ a {
   background-color: #fff;
   width: 50%;
   opacity: 1;
+  border-radius: 0 0 8px 0;
 }
 
 /* ABOUT */
@@ -173,10 +179,21 @@ img.grayscale:hover {
 
 .bg-img-mayo {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo-sq.jpg");
+  background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo.jpg");
   min-height: 15rem;
   overflow: hidden;
   background-repeat: repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.bg-img-ddn {
+  position: relative;
+  background-image: url("{{site.baseurl}}/images/case-studies/ddn/final.jpg");
+  min-height: 15rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
@@ -214,7 +231,7 @@ img.grayscale:hover {
 /* FOOTER */
 
 .footer-distributed{
-  background-color: #292c2f;
+  background-color: #1c2f33;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -336,6 +353,17 @@ img.grayscale:hover {
     padding-top: 4em;
   }
 
+  .bg-img-ddn {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/ddn/final.jpg");
+    min-height: 25rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -350,10 +378,21 @@ img.grayscale:hover {
 
   .bg-img-mayo {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo-sq.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo.jpg");
     min-height: 25rem;
     overflow: hidden;
     background-repeat: repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .bg-img-ddn {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/ddn/final.jpg");
+    min-height: 35rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
@@ -394,7 +433,7 @@ img.grayscale:hover {
 
   .bg-img-mayo {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo-sq.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/mayofest/mayo.jpg");
     min-height: 40rem;
     overflow: hidden;
     background-repeat: repeat;
