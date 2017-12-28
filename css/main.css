@@ -30,6 +30,7 @@ html {
 
 p {
   font-family: "Iskra", serif;
+  max-width: 35em;
 }
 
 h2 {
@@ -199,6 +200,17 @@ img.grayscale:hover {
   background-attachment: fixed;
 }
 
+.bg-img-quohog {
+  position: relative;
+  background-image: url("{{site.baseurl}}/images/case-studies/quohog/3d-bg.jpg");
+  min-height: 15rem;
+  overflow: hidden;
+  background-repeat: repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .btn-marg {
   margin: 1rem;
 }
@@ -226,6 +238,11 @@ img.grayscale:hover {
 .block {
   background-color: #1c2f33;
   height: 3em;
+}
+
+.frame {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /* FOOTER */
@@ -364,6 +381,22 @@ img.grayscale:hover {
     background-attachment: fixed;
   }
 
+  .bg-img-quohog {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/quohog/3d-bg.jpg");
+    min-height: 30rem;
+    overflow: hidden;
+    background-repeat: repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .frame {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -448,6 +481,11 @@ img.grayscale:hover {
 
   .symbols {
     padding-top: 7em;
+  }
+
+  .frame {
+    margin-left: 20rem;
+    margin-right: 20rem;
   }
 
 }
