@@ -20,6 +20,10 @@ html {
   box-sizing: inherit;
 }
 
+.fa {
+  padding: .5rem;
+}
+
 .pad-first {
   margin-top: 175px;
 }
@@ -54,6 +58,7 @@ h2 {
 
 .em {
   color: #7C8080;
+  max-width: 35em;
 }
 
 /* NAV */
@@ -158,7 +163,7 @@ img.grayscale:hover {
 
 .bg-img {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/alive/full.png");
+  background-image: url("{{site.baseurl}}/images/case-studies/alive/full.jpg");
   min-height: 35rem;
   overflow: hidden;
   background-repeat: no-repeat;
