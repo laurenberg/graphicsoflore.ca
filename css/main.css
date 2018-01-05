@@ -129,6 +129,7 @@ a {
   min-height: 30rem;
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -194,6 +195,7 @@ img.grayscale:hover {
   min-height: 35rem;
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -204,6 +206,7 @@ img.grayscale:hover {
   min-height: 35rem;
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -214,6 +217,7 @@ img.grayscale:hover {
   min-height: 15rem;
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -224,6 +228,7 @@ img.grayscale:hover {
   min-height: 15rem;
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -234,6 +239,7 @@ img.grayscale:hover {
   min-height: 15rem;
   overflow: hidden;
   background-repeat: no-repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -244,6 +250,7 @@ img.grayscale:hover {
   min-height: 15rem;
   overflow: hidden;
   background-repeat: repeat;
+  background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
 }
@@ -426,6 +433,7 @@ h2 {
     min-height: 25rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -436,6 +444,7 @@ h2 {
     min-height: 30rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -446,6 +455,7 @@ h2 {
     min-height: 25rem;
     overflow: hidden;
     background-repeat: repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -494,6 +504,7 @@ h2 {
     min-height: 25rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
     width: 100%;
   }
@@ -504,6 +515,7 @@ h2 {
     min-height: 25rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -514,6 +526,7 @@ h2 {
     min-height: 35rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -524,6 +537,7 @@ h2 {
     min-height: 35rem;
     overflow: hidden;
     background-repeat: repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -534,6 +548,7 @@ h2 {
     min-height: 35rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -567,6 +582,7 @@ h2 {
     min-height: 35rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center;
   }
 
@@ -576,6 +592,7 @@ h2 {
     min-height: 40rem;
     overflow: hidden;
     background-repeat: repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -586,6 +603,7 @@ h2 {
     min-height: 40rem;
     overflow: hidden;
     background-repeat: repeat;
+    background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
   }
@@ -596,6 +614,7 @@ h2 {
     max-height: 15rem;
     overflow: hidden;
     background-repeat: no-repeat;
+    background-size: 100% auto;
     background-position: center center;
     background-attachment: fixed;
   }
