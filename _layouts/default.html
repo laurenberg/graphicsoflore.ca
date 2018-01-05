@@ -3,8 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Graphics of Lore</title>
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
@@ -13,51 +12,61 @@
   <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
   <link href="{{site.baseurl}}/css/main.css" rel="stylesheet">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Graphics of Lore">
+  <meta property="og:url" content="http://graphicsoflore.ca">
+  <meta property="og:image" content="http://graphicsoflore.ca/images/prev.jpg">
+  <meta property="og:site_name" content="Graphics of Lore">
+  <meta property="og:description" content="Graphic designer and illustrator Lore Berg's portfolio. Includes studies in web design, print design, branding, illustration, and motion graphics.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@Lauren_Berg_GD">
+  <meta name="twitter:title" content="Graphics of Lore">
+  <meta name="twitter:url" content="http://graphicsoflore.ca">
+  <meta name="twitter:description" content="Graphic designer and illustrator Lore Berg's portfolio. Includes studies in web design, print design, branding, illustration, and motion graphics.">
+  <meta name="twitter:image" content="http://graphicsoflore.ca/images/tweet.jpg">
 </head>
 <body>
 
   <header roll="nav">
     <div class="navbar grid fixed grid-middle">
       <div class="logo tera unit l-1-3 m-1-3 xs-1">
-        <a href="{{site.baseurl}}/index" alt="home button">
+        <a href="{{site.baseurl}}/" alt="home button">
           <h1 class="logo"><img class="i-64" src="{{site.baseurl}}/images/logo.png" alt="Lore Berg wordmark"></img></h1>
         </a>
       </div>
       <div class="nav unit l-2-3 m-2-3 xs-1">
-        <a class="milli nav-text" href="#about">ABOUT</a>
-        <a class="milli nav-text" href="#curiosities">CURIOSITIES</a>
-        <a class="milli nav-text" href="#connect">CONNECT</a>
+        <a class="hover milli nav-text" href="#about">ABOUT</a>
+        <a class="hover milli nav-text" href="#curiosities">CURIOSITIES</a>
+        <a class="hover milli nav-text" href="#connect">CONNECT</a>
       </div>
     </div>
   </header>
 
   {{content}}
 
-  <footer class="footer-distributed" id="#connect">
+  <footer class="footer-distributed" id="connect">
 
-    <div class="footer-left">
-
-      <a href="{{site.baseurl}}/index">
-        <img class="i-64" src="{{site.baseurl}}/images/logo.png" alt="designer's logo wordmark reads Lore Berg">
-      </a>
-      <a class="island" href="mailto:connect@graphicsoflore.ca" target="_top">connect@graphicsoflore.ca</a></p>
-
-      <div class="footer-icons">
-
-        <a href="https://www.behance.net/berg0215fb36"><i class="fa fa-behance"></i></a>
-        <a href="https://www.instagram.com/graphics.of.lore/"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/lauren-berg-a3232211b/"><i class="fa fa-linkedin"></i></a>
-        <a href="https://vimeo.com/user56597140"><i class="fa fa-vimeo"></i></a>
-
+    <div class="grid grid-middle">
+      <div class="unit l-1-2 m-1-2 s-1 center left footer-left">
+        <a href="{{site.baseurl}}/">
+          <img class="i-64" src="{{site.baseurl}}/images/logo.png" alt="designer's logo wordmark reads Lore Berg">
+        </a>
+        <a class="island hover" href="mailto:connect@graphicsoflore.ca" target="_top">connect@graphicsoflore.ca</a></p>
       </div>
-
+      <div class="unit l-1-2 m-1-2 s-1">
+        <div class="footer-icons right">
+          <a href="https://www.instagram.com/graphics.of.lore/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="https://www.behance.net/berg0215fb36" target="_blank"><i class="fa fa-behance"></i></a>
+          <a href="https://www.linkedin.com/in/lauren-berg-a3232211b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          <a href="https://vimeo.com/user56597140" target="_blank"><i class="fa fa-vimeo"></i></a>
+        </div>
+      </div>
     </div>
-
   </footer>
 
   <script type="text/javascript" src="js/nav.js"></script>
   <script src="https://use.typekit.net/esy0vnb.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-</body>
+  </body>
 </html>

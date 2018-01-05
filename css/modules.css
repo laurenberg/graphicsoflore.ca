@@ -121,6 +121,11 @@ svg.img-flex {
   width: 64px;
 }
 
+.i-82, .i--82 {
+  height: 82px;
+  width: 82px;
+}
+
 .icon img,
 .icon svg {
   left: 0;
