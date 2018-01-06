@@ -17,6 +17,13 @@ html {
   background-color: #1c2f33;
 }
 
+.anchor{
+  display: block;
+  height: 85px; /*same height as header*/
+  margin-top: -85px; /*same height as header*/
+  visibility: hidden;
+}
+
 .blue {
   color: #1c2f33;
   max-width: 22em;
