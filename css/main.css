@@ -17,6 +17,11 @@ html {
   background-color: #1c2f33;
 }
 
+.blue {
+  color: #1c2f33;
+  max-width: 22em;
+}
+
 alt {
   font-family: iskra, serif;
 }
