@@ -17,10 +17,17 @@ html {
   background-color: #1c2f33;
 }
 
-.anchor{
+.anchor {
   display: block;
   height: 190px; /*same height as header*/
   margin-top: -190px; /*same height as header*/
+  visibility: hidden;
+}
+
+.anchortwo {
+  display: block;
+  height: 210px; /*same height as header*/
+  margin-top: -210px; /*same height as header*/
   visibility: hidden;
 }
 
