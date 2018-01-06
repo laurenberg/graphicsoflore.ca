@@ -243,7 +243,7 @@ img.grayscale:hover {
   background-image: url("{{site.baseurl}}/images/case-studies/impact/full.png");
   min-height: 15rem;
   overflow: hidden;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
 }
