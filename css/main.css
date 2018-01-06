@@ -19,8 +19,8 @@ html {
 
 .anchor{
   display: block;
-  height: 85px; /*same height as header*/
-  margin-top: -85px; /*same height as header*/
+  height: 190px; /*same height as header*/
+  margin-top: -190px; /*same height as header*/
   visibility: hidden;
 }
 
