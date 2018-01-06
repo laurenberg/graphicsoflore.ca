@@ -454,7 +454,7 @@ h2 {
 
   .bg-img-ddn {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/ddn/final.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/ddn/mobile.jpg");
     min-height: 30rem;
     overflow: hidden;
     background-repeat: no-repeat;
