@@ -501,7 +501,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
-    width: 100%;
+    background-attachment: fixed;
   }
 
   .bg-img-mayo {
@@ -512,6 +512,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
   .bg-img-ddn {
@@ -522,6 +523,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
   .bg-img-impact {
@@ -532,6 +534,7 @@ h2 {
     background-repeat: repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
   .bg-img {
@@ -542,6 +545,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
 }
@@ -575,6 +579,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
   .bg-img-mayo {
@@ -585,6 +590,7 @@ h2 {
     background-repeat: repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
   .bg-img-impact {
@@ -595,6 +601,7 @@ h2 {
     background-repeat: repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
   }
 
   .bg-img-map {
@@ -605,6 +612,7 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
+    background-attachment: fixed;
   }
 
   .why-box {
