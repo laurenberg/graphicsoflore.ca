@@ -166,17 +166,6 @@ a {
   padding: 1rem;
 }
 
-/* CURIOSITIES */
-
-img.grayscale {
-  filter: grayscale(100%);
-}
-
-img.grayscale:hover {
-  filter: none;
-  -webkit-filter: grayscale(0%);
-}
-
 /* CASE STUDIES */
 
 .cs-head {
@@ -474,6 +463,15 @@ h2 {
 }
 
 @media only screen and (min-width: 60em) {
+
+  img.grayscale {
+    filter: grayscale(100%);
+  }
+
+  img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+  }
 
   .sc-desc {
     padding-top: 8rem;
