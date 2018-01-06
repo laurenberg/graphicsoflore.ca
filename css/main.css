@@ -435,16 +435,6 @@ h2 {
     background-position: center;
   }
 
-  .bg-img-quohog {
-    position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/quohog/3d-bg.jpg");
-    min-height: 30rem;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center;
-  }
-
   .bg-img-impact {
     position: relative;
     background-image: url("{{site.baseurl}}/images/case-studies/impact/full.jpg");
@@ -497,6 +487,17 @@ h2 {
     position: relative;
     background-image: url("{{site.baseurl}}/images/banner.jpg");
     min-height: 25rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .bg-img-quohog {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/quohog/3d-bg.jpg");
+    min-height: 30rem;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: 100% auto;
