@@ -215,8 +215,8 @@ a {
 
 .bg-img {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/alive/full.jpg");
-  min-height: 35rem;
+  background-image: url("{{site.baseurl}}/images/case-studies/alive/mobile.jpg");
+  min-height: 45rem;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -245,8 +245,8 @@ a {
 
 .bg-img-ddn {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/ddn/final.jpg");
-  min-height: 15rem;
+  background-image: url("{{site.baseurl}}/images/case-studies/ddn/mobile.jpg");
+  min-height: 25rem;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -455,7 +455,7 @@ h2 {
   .bg-img-ddn {
     position: relative;
     background-image: url("{{site.baseurl}}/images/case-studies/ddn/final.jpg");
-    min-height: 25rem;
+    min-height: 30rem;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: 100% auto;
