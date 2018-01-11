@@ -603,6 +603,13 @@ h2 {
     margin: 0 auto;
   }
 
+  .vert {
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+
   .banner-img {
     position: relative;
     background-image: url("{{site.baseurl}}/images/banner.jpg");
