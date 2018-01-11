@@ -221,6 +221,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
+  display: none;
 }
 
 .bg-img-map {
@@ -251,6 +252,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
+  display: none;
 }
 
 .bg-img-quohog {
@@ -271,6 +273,41 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
+}
+
+.bg-img-atom {
+  position: relative;
+  background-image: url("{{site.baseurl}}/images/case-studies/atomicus/mobile.jpg");
+  min-height: 25rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-color: #1c2f33;
+  display: none;
+}
+
+.bg-img-homeo {
+  position: relative;
+  background-image: url("{{site.baseurl}}/images/case-studies/homeo/bcard.jpg");
+  min-height: 25rem;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-color: #1c2f33;
+  display: none;
+}
+
+video {
+  width: 100%;
+}
+
+.ch {
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 .btn-marg {
@@ -327,7 +364,6 @@ a {
   font: "Iskra" 16px sans-serif;
   text-align: left;
   padding: 50px 60px 40px;
-  margin-top: 80px;
   overflow: hidden;
   letter-spacing: 1px;
 }
@@ -393,13 +429,21 @@ h2 {
 }
 
 .dots {
-  max-width: 4rem;
+  max-width: 6rem;
   margin-top: 0;
   padding-top: 0;
   padding-bottom: .35rem;
 }
 
+.bcard {
+  display: block;
+}
+
 @media only screen and (min-width: 608px) {
+
+  .bcard {
+    display: none;
+  }
 
   .nav {
     text-align: right;
@@ -445,7 +489,7 @@ h2 {
   }
 
   .cs-pad-first {
-    margin-top: 105px;
+    margin-top: 100px;
   }
 
   .symbols {
@@ -460,7 +504,22 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    display: block;
   }
+
+  .bg-img-atom {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/atomicus/full.jpg");
+    min-height: 30rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #1c2f33;
+    display: block;
+  }
+
 
   .bg-img-impact {
     position: relative;
@@ -470,6 +529,19 @@ h2 {
     background-repeat: repeat;
     background-size: 100% auto;
     background-position: center;
+    display: block;
+  }
+
+  .bg-img-homeo {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/homeo/bcard.jpg");
+    min-height: 25rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: block;
+    background-attachment: fixed;
   }
 
   .frame {
@@ -498,6 +570,11 @@ h2 {
     border-radius: 0 0 8px 0;
   }
 
+  .ch {
+    text-align: center;
+    width: 50%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -519,6 +596,13 @@ h2 {
     padding-top: 5em;
   }
 
+  .vert-img {
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
   .banner-img {
     position: relative;
     background-image: url("{{site.baseurl}}/images/banner.jpg");
@@ -530,8 +614,20 @@ h2 {
     background-attachment: fixed;
   }
 
+  .bg-img-atom {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/atomicus/full.jpg");
+    min-height: 40rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #1c2f33;
+  }
+
   .cs-pad-first {
-    margin-top: 110px;
+    margin-top: 105px;
   }
 
   .bg-img-quohog {
@@ -586,6 +682,19 @@ h2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
+    background-attachment: fixed;
+    display: block;
+  }
+
+  .bg-img-homeo {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/homeo/bcard.jpg");
+    min-height: 30rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+    display: block;
     background-attachment: fixed;
   }
 
