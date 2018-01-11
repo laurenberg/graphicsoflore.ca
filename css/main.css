@@ -289,7 +289,7 @@ a {
 
 .bg-img-homeo {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/homeo/bcard.jpg");
+  background-image: url("{{site.baseurl}}/images/case-studies/homeo/stationary.jpg");
   min-height: 25rem;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -534,7 +534,7 @@ h2 {
 
   .bg-img-homeo {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/homeo/bcard.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/homeo/stationary.jpg");
     min-height: 25rem;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -688,7 +688,7 @@ h2 {
 
   .bg-img-homeo {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/homeo/bcard.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/homeo/stationary.jpg");
     min-height: 30rem;
     overflow: hidden;
     background-repeat: no-repeat;
