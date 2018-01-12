@@ -581,6 +581,15 @@ input[type="radio"] {
 @media only screen and (min-width: 120em) {
 
   html {
+    font-size: 140%;
+    line-height: 1.7;
+  }
+
+}
+
+@media only screen and (min-width: 140em) {
+
+  html {
     font-size: 180%;
     line-height: 1.7;
   }
