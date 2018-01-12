@@ -208,6 +208,15 @@ a {
   padding-top: 1rem;
 }
 
+.showcase {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cur {
+  margin-bottom: 0;
+}
+
 .ddn-img {
   padding-top: 0;
   margin-top: 0;
