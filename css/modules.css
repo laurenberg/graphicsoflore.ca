@@ -26,28 +26,19 @@ body {
   margin: 0;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
 footer,
 header,
 main,
 menu,
-nav,
-section,
-summary {
+nav {
   display: block;
 }
 
 a,
-area,
 button,
 input,
 label,
 select,
-textarea,
 [tabindex] {
   -ms-touch-action: manipulation;
   touch-action: manipulation;
@@ -73,14 +64,6 @@ svg:not(:root) {
 svg.img-flex {
   width: 100%;
   height: 100%;
-}
-
-.image-replacement, .ir {
-  overflow: hidden;
-  direction: ltr;
-  text-align: left;
-  text-indent: 100%;
-  white-space: nowrap;
 }
 
 .icon {
@@ -135,51 +118,8 @@ svg.img-flex {
   width: 100%;
 }
 
-.icon-label {
-  vertical-align: middle;
-}
-
-.icon-link,
-.icon-link:focus,
-.icon-link:hover {
-  text-decoration: none;
-}
-
 .fixed {
   position: fixed;
-}
-
-.relative {
-  position: relative;
-}
-
-.absolute {
-  position: absolute;
-}
-
-ul {
-  list-style-type: none;
-}
-
-ul > li::before {
-  float: left;
-  margin-left: -1.6em;
-  width: 1.3em;
-  text-align: right;
-}
-
-ol {
-  counter-reset: ol-simple-numbers;
-  list-style-type: none;
-}
-
-ol > li::before {
-  float: left;
-  margin-left: -1.6em;
-  width: 1.3em;
-  counter-increment: ol-simple-numbers;
-  content: counter(ol-simple-numbers);
-  text-align: right;
 }
 
 .btn {
@@ -292,19 +232,6 @@ input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-fieldset {
-  border: 1px solid;
-}
-
-legend {
-  border: 0;
-  padding: 0;
-  color: inherit;
-  display: table;
-  max-width: 100%;
-  white-space: normal;
-}
-
 optgroup {
   font-weight: bold;
 }
@@ -320,12 +247,6 @@ optgroup {
 }
 
 /* End Normalize.css code */
-
-label,
-.label-block {
-  display: block;
-  cursor: pointer;
-}
 
 input[type="checkbox"] + label,
 input[type="radio"] + label,
@@ -352,28 +273,6 @@ textarea {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-}
-
-input,
-textarea {
-  display: block;
-  width: 100%;
-
-  background-color: #fff;
-  border: 2px solid #e2e2e2;
-  border-radius: 0;
-
-  vertical-align: middle;
-}
-
-label {
-  vertical-align: middle;
-}
-
-textarea {
-  max-width: 100%;
-  min-height: 4em;
-  overflow: auto;
 }
 
 input[type="checkbox"],
