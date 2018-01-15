@@ -14,7 +14,8 @@ html {
   text-size-adjust: 100%;
   font-family: "Iskra", serif;
   font-family: "Tornac", cursive;
-  background-color: #1c2f33;
+  background-color: #1c2d3f;
+  overflow-x: hidden
 }
 
 *, *::before, *::after {
@@ -24,6 +25,7 @@ html {
 /* BASE STYLES */
 body {
   background-color: #fff;
+  overflow-x: hidden
 }
 
 p {
@@ -113,7 +115,7 @@ h6 {
 
 img {
   font-family: iskra, serif;
-  color: #1c2f33;
+  color: #1c2d3f;
 }
 
 .em {
@@ -129,7 +131,7 @@ video {
 .navbar {
   top: 0;
   left: 0;
-  background-color: #1c2f33;
+  background-color: #1c2d3f;
   width: 100%;
   z-index: 1000;
 }
@@ -301,7 +303,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  background-color: #1c2f33;
+  background-color: #1c2d3f;
   display: none;
 }
 
@@ -313,7 +315,7 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  background-color: #1c2f33;
+  background-color: #1c2d3f;
   display: none;
 }
 
@@ -364,7 +366,7 @@ a {
 /* FOOTER */
 
 .footer-distributed{
-  background-color: #1c2f33;
+  background-color: #1c2d3f;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -525,7 +527,7 @@ h2 {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
-    background-color: #1c2f33;
+    background-color: #1c2d3f;
     display: block;
   }
 
@@ -649,7 +651,7 @@ h2 {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
-    background-color: #1c2f33;
+    background-color: #1c2d3f;
   }
 
   .cs-pad-first {
