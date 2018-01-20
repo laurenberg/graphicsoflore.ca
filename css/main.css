@@ -717,6 +717,17 @@ h2 {
     display: block;
   }
 
+  .bg-img-map {
+    position: relative;
+    background-image: url("{{site.baseurl}}/images/case-studies/map/final-bg.jpg");
+    max-height: 15rem;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
   .bg-img-homeo {
     position: relative;
     background-image: url("{{site.baseurl}}/images/case-studies/homeo/stationary.jpg");
