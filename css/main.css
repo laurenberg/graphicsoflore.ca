@@ -239,6 +239,13 @@ a {
   margin-top: 0;
 }
 
+.ddn-logo {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
 .bg-img {
   position: relative;
   background-image: url("{{site.baseurl}}/images/case-studies/alive/mobile.jpg");
