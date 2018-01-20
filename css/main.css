@@ -300,7 +300,7 @@ a {
 
 .bg-img-impact {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/impact/full.png");
+  background-image: url("{{site.baseurl}}/images/case-studies/impact/full-bg.jpg");
   min-height: 15rem;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -328,7 +328,6 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  background-color: #1c2d3f;
   display: none;
 }
 
@@ -392,7 +391,7 @@ a {
   text-align: left;
   padding: 50px 60px 40px;
   padding-bottom: 0;
-  padding-top: 20px;
+  padding-top: 30px;
   overflow: hidden;
   letter-spacing: 1px;
   vertical-align: center;
@@ -533,7 +532,7 @@ h2 {
 
   .bg-img-impact {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/impact/full.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/impact/full-bg.jpg");
     min-height: 25rem;
     overflow: hidden;
     background-repeat: repeat;
@@ -600,7 +599,7 @@ h2 {
 @media only screen and (min-width: 60em) {
 
   img.grayscale {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
   }
 
   .why-box {
@@ -610,7 +609,7 @@ h2 {
 
   img.grayscale:hover {
     filter: none;
-    -webkit-filter: grayscale(0%);
+    -webkit-filter: grayscale(100%);
   }
 
   .sc-desc {
@@ -697,7 +696,7 @@ h2 {
 
   .bg-img-impact {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/impact/full.png");
+    background-image: url("{{site.baseurl}}/images/case-studies/impact/full-bg.jpg");
     min-height: 35rem;
     overflow: hidden;
     background-repeat: repeat;
@@ -783,7 +782,7 @@ h2 {
 
   .bg-img-impact {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/impact/full.png");
+    background-image: url("{{site.baseurl}}/images/case-studies/impact/full-bg.jpg");
     min-height: 40rem;
     overflow: hidden;
     background-repeat: repeat;
