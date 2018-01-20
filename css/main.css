@@ -14,7 +14,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Iskra", serif;
   font-family: "Tornac", cursive;
-  background-color: #1c2d3f;
+  background-color: #6abeb8;
   overflow-x: hidden
 }
 
@@ -25,7 +25,7 @@ html {
 /* BASE STYLES */
 body {
   background-color: #fff;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 p {
@@ -58,24 +58,24 @@ h6 {
   font-family: Tornac, cursive;
 }
 
-/* INDEX ANCHORE */
+/* INDEX ANCHOR */
 .anchor {
   display: block;
-  height: 190px;
-  margin-top: -190px;
+  height: 130px;
+  margin-top: -130px;
   visibility: hidden;
 }
 
 .anchortwo {
   display: block;
-  height: 210px;
-  margin-top: -210px;
+  height: 150px;
+  margin-top: -150px;
   visibility: hidden;
 }
 
 /* CUSTOM PADDING */
 .pad-first {
-  margin-top: 175px;
+  margin-top: 135px;
 }
 
 .cs-pad-first {
@@ -93,11 +93,11 @@ h6 {
 }
 
 .fa:hover {
-  color: #edaf20;
+  color: #ffb900;
 }
 
 .hover:hover {
-  color: #edaf20;
+  color: #ffb900;
 }
 
 /* MEDIA and EMPHASIS */
@@ -118,6 +118,10 @@ img {
   color: #1c2d3f;
 }
 
+.cs-img {
+  border-radius: 50%;
+}
+
 .em {
   color: #7C8080;
   max-width: 30em;
@@ -131,14 +135,16 @@ video {
 .navbar {
   top: 0;
   left: 0;
-  background-color: #1c2d3f;
+  background-color: #7685ec;
   width: 100%;
   z-index: 1000;
 }
 
 .logo {
   text-align: center;
-  margin-top: 1.5rem;
+  margin: 0 auto;
+  padding-top: 0.75rem;
+  vertical-align: center;
 }
 
 .logo-cs {
@@ -338,8 +344,8 @@ a {
 
 .btn:hover {
   color: #000;
-  background-color: #edaf20;
-  border-color: #edaf20;
+  background-color: #ffb900;
+  border-color: #ffb900;
 }
 
 .map {
@@ -363,10 +369,16 @@ a {
   margin-right: 1rem;
 }
 
+.showcase {
+  margin: 0 auto;
+  max-width: 50em;
+  margin-bottom: 3rem;
+}
+
 /* FOOTER */
 
 .footer-distributed{
-  background-color: #1c2d3f;
+  background-color: #be48b0;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -496,7 +508,7 @@ h2 {
   }
 
   .pad-first {
-    margin-top: 125px;
+    margin-top: 90px;
   }
 
   .cs-pad-first {
@@ -574,7 +586,7 @@ h2 {
 
   .why-b {
     padding: 1rem;
-    background-color: #fff;
+    background-color: #fcbd00;
     width: 50%;
     opacity: 1;
     border-radius: 0 8px 8px 0;
@@ -589,6 +601,11 @@ h2 {
     max-width: 70%;
     display: block;
     margin: 0 auto;
+  }
+
+  .logo {
+    padding-left: 5rem;
+    text-align: left;
   }
 
 }
@@ -655,7 +672,7 @@ h2 {
   }
 
   .cs-pad-first {
-    margin-top: 105px;
+    margin-top: 90px;
   }
 
   .bg-img-quohog {
@@ -752,7 +769,7 @@ h2 {
   }
 
   .pad-first {
-    margin-top: 150px;
+    margin-top: 90px;
   }
 
   .banner-img {
