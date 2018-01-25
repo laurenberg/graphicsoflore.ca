@@ -14,7 +14,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Iskra", serif;
   font-family: "Tornac", cursive;
-  background-color: #6abeb8;
+  background-color: #7685ec;
   overflow-x: hidden
 }
 
@@ -385,7 +385,7 @@ a {
 /* FOOTER */
 
 .footer-distributed{
-  background-color: #be48b0;
+  background-color: #7685ec;
   box-sizing: border-box;
   width: 100%;
   font: "Iskra" 16px serif;
