@@ -124,7 +124,7 @@ img {
 }
 
 .em {
-  color: #7C8080;
+  color: #f79b14;
   max-width: 30em;
 }
 
@@ -493,6 +493,10 @@ h2 {
   .sc-btn {
     width: 30%;
     display: block;
+  }
+
+  .btn {
+    background-color: #2F1847;
   }
 
   .pad-first {
