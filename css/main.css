@@ -14,7 +14,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Iskra", serif;
   font-family: "Tornac", cursive;
-  background-color: #7685ec;
+  background-color: #2F1847;
   overflow-x: hidden
 }
 
@@ -90,6 +90,7 @@ h6 {
 /* FONT AWESOME */
 .fa {
   padding: .5rem;
+  font-size: 22px;
 }
 
 .fa:hover {
@@ -135,7 +136,7 @@ video {
 .navbar {
   top: 0;
   left: 0;
-  background-color: #7685ec;
+  background-color: #2F1847;
   width: 100%;
   z-index: 1000;
 }
@@ -385,14 +386,14 @@ a {
 /* FOOTER */
 
 .footer-distributed{
-  background-color: #7685ec;
+  background-color: #2F1847;
   box-sizing: border-box;
   width: 100%;
   font: "Iskra" 16px serif;
   text-align: left;
   padding: 50px 60px 40px;
   padding-bottom: 0;
-  padding-top: 30px;
+  padding-top: 20px;
   overflow: hidden;
   letter-spacing: 1px;
   vertical-align: center;
