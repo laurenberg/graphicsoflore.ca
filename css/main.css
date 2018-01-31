@@ -312,7 +312,7 @@ a {
 
 .bg-img-atom {
   position: relative;
-  background-image: url("{{site.baseurl}}/images/case-studies/atomicus/mobile.jpg");
+  background-image: url("{{site.baseurl}}/images/case-studies/castorandpollux/pollux-bg.jpg");
   min-height: 25rem;
   overflow: hidden;
   background-repeat: no-repeat;
@@ -530,7 +530,7 @@ h2 {
 
   .bg-img-atom {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/atomicus/full.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/castorandpollux/pollux-bg.jpg");
     min-height: 30rem;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -671,7 +671,7 @@ h2 {
 
   .bg-img-atom {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/case-studies/atomicus/full.jpg");
+    background-image: url("{{site.baseurl}}/images/case-studies/castorandpollux/pollux-bg.jpg");
     min-height: 40rem;
     overflow: hidden;
     background-repeat: no-repeat;
