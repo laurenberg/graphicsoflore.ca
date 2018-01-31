@@ -318,7 +318,6 @@ a {
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  background-color: #1c2d3f;
   display: none;
 }
 
@@ -537,7 +536,6 @@ h2 {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
-    background-color: #1c2d3f;
     display: block;
   }
 
@@ -678,7 +676,6 @@ h2 {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
-    background-color: #1c2d3f;
   }
 
   .cs-pad-first {
