@@ -304,6 +304,7 @@ a {
   background-size: 100% auto;
   background-position: center;
   background-attachment: fixed;
+  display: none;
 }
 
 .bg-img-quohog {
@@ -358,6 +359,7 @@ a {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
+    display: none;
   }
 
 .quohog {
@@ -624,6 +626,7 @@ h2 {
     background-size: 100% auto;
     background-position: center;
     background-attachment: fixed;
+    display: block;
   }
 
   /* HOWL PHOTO GRID */
