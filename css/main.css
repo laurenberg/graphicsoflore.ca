@@ -14,7 +14,7 @@ html {
   text-size-adjust: 100%;
   font-family: "Iskra", serif;
   font-family: "Tornac", cursive;
-  background-color: #2F1847;
+  background-color: #ee6e47;
   overflow-x: hidden
 }
 
@@ -136,7 +136,7 @@ video {
 .navbar {
   top: 0;
   left: 0;
-  background-color: #2F1847;
+  background-color: #ee6e47;
   width: 100%;
   z-index: 1000;
 }
@@ -205,7 +205,7 @@ a {
 
 .why-b {
   padding: 1rem;
-  background-color: #fcbd00;
+  background-color: #b8b8b8;
   width: 50%;
   opacity: 1;
   border-radius: 0 8px 8px 0;
@@ -415,7 +415,7 @@ a {
 /* FOOTER */
 
 .footer-distributed{
-  background-color: #2F1847;
+  background-color: #ee6e47;
   box-sizing: border-box;
   width: 100%;
   font: "Iskra" 16px serif;
@@ -683,7 +683,7 @@ h2 {
 
   .why-b {
     padding: 2rem;
-    background-color: #fcbd00;
+    background-color: #b8b8b8;
     width: 50%;
     opacity: 1;
     border-radius: 0 8px 8px 0;
@@ -710,7 +710,7 @@ h2 {
 @media only screen and (min-width: 60em) {
 
   img.grayscale {
-    filter: grayscale(0%);
+    filter: grayscale(100%);
   }
 
   .why-box {
@@ -720,7 +720,7 @@ h2 {
 
   img.grayscale:hover {
     filter: none;
-    -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(0%);
   }
 
   .sc-desc {
@@ -747,7 +747,7 @@ h2 {
 
   .banner-img {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/banner.jpg");
+    background-image: url("{{site.baseurl}}/images/banner2.jpg");
     min-height: 25rem;
     overflow: hidden;
     background-repeat: no-repeat;
@@ -882,7 +882,7 @@ h2 {
 
   .banner-img {
     position: relative;
-    background-image: url("{{site.baseurl}}/images/banner.jpg");
+    background-image: url("{{site.baseurl}}/images/banner2.jpg");
     min-height: 35rem;
     overflow: hidden;
     background-repeat: no-repeat;
