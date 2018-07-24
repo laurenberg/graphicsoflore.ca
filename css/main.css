@@ -481,6 +481,15 @@ h2 {
 
 @media only screen and (min-width: 608px) {
 
+  img.grayscale {
+    filter: grayscale(100%);
+  }
+
+  img.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(100%);
+  }
+
   .bcard {
     display: none;
   }
