@@ -720,7 +720,7 @@ h2 {
 @media only screen and (min-width: 60em) {
 
   img.grayscale {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
   }
 
   .why-box {
@@ -730,7 +730,7 @@ h2 {
 
   img.grayscale:hover {
     filter: none;
-    -webkit-filter: grayscale(0%);
+    -webkit-filter: grayscale(100%);
   }
 
   .sc-desc {
